@@ -557,7 +557,7 @@
 <script type="text/javascript" src="js/slick-1.8.1/slick/slick.min.js"></script>
 <script src="bootstrap/js/bootstrap.min.js" charset="utf-8"></script>
 <script>
-    $('.reviews_slider').slick({
+   $('.reviews_slider').slick({
         infinite: true,
         slidesToShow: 3,
         slidesToScroll: 1,
@@ -566,14 +566,18 @@
           breakpoint: 992,
           settings: {
             slidesToShow: 2,
-            slidesToScroll: 1
+            slidesToScroll: 1,
+            dots: true,
+            arrows: false
           }
         },
         {
           breakpoint: 767,
           settings: {
             slidesToShow: 1,
-            slidesToScroll: 1
+            slidesToScroll: 1,
+            dots: true,
+            arrows: false
           }
         }
       ]
